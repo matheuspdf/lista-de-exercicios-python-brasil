@@ -125,5 +125,7 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+.flake8
+
 # Pyre type checker
 .pyre/
