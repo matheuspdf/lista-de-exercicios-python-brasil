@@ -7,7 +7,7 @@ Calcule e mostre o total do seu salário no referido mês.
 Mostrar salário com duas casas decimais
 
     >>> from secao_01_estrutura_sequencial import ex_08_horas_trabalhadas_mes
-    >>> numeros =['80', '55.62']
+    >>> numeros = ['80', '55.62']
     >>> ex_08_horas_trabalhadas_mes.input = lambda k: numeros.pop()
     >>> ex_08_horas_trabalhadas_mes.calcular_salario()
     Seu salário desse mês é 4449.60
@@ -16,4 +16,7 @@ Mostrar salário com duas casas decimais
 
 
 def calcular_salario():
-    """Escreva aqui em baixo a sua solução"""
+    ganho_por_hora = float(input('Quanto você ganha por hora?'))
+    horas_por_mes = float(input('Quantas horas você trabalha por mês?'))
+    salario_total_por_mes = ganho_por_hora * horas_por_mes
+    print(f'Seu salário desse mês é {salario_total_por_mes:.2f}')
