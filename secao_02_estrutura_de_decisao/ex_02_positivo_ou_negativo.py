@@ -17,10 +17,9 @@ Caso seja igual a 0, retorne None.
 
 
 def positivo_ou_negativo(n):
-    n = input('Digite um número positivo ou negativo')
     if n > 0:
-        print('positivo')
+        return 'positivo'
     elif n < 0:
-        print('negativo')
+        return 'negativo'
     else:
-        print('não tem positivo nem negativo')
+        return 'não tem positivo nem negativo'
