@@ -16,4 +16,10 @@ Faça um Programa que leia três números e mostre o maior deles.
 
 
 def calcular_maior_de_3_numeros(x, y, z):
-    """Escreva aqui em baixo a sua solução"""
+    if x > y and x > z:
+        maior = x
+    elif y > z and y > z:
+        maior = y
+    else:
+        maior = z
+    return maior
