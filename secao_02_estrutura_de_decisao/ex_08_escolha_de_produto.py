@@ -2,7 +2,8 @@
 Exercício 08 da seção de estrutura de decisão da Python Brasil:
 https://wiki.python.org.br/EstruturaDeDecisao
 
-Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão
+Faça um programa que pergunte o preço de três produtos e informe
+qual produto você deve comprar, sabendo que a decisão
 é sempre pelo mais barato.
 Mostrar o resultado com duas casas decimais
 
@@ -19,4 +20,16 @@ Mostrar o resultado com duas casas decimais
 
 
 def decidir_melhor_produto(x, y, z):
-    """Escreva aqui em baixo a sua solução"""
+    if x <= y and x <= z:
+        mais_barato = x
+    if y <= x and y <= z:
+        mais_barato = y        
+    if z <= y and z <= x:
+        mais_barato = z
+    print(f"Melhor produto custa R$ {mais_barato:.2f}")
+
+# Alternativa:
+# def decidir_melhor_produto(x, y, z):
+#     produtos = [x, y, z]
+#     mais_barato = min(produtos)
+#     print(f'Melhor produto custa R$ {mais_barato:.2f}')
