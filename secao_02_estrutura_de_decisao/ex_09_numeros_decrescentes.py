@@ -17,4 +17,35 @@ Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
 
 def ordenar_decrescente(x, y, z):
-    """Escreva aqui em baixo a sua solução"""
+    if x >= y and x >= z:
+        maior = x
+        if y >= z:
+            meio = y
+            menor = z
+        else:
+            meio = z
+            menor = y
+    if y >= x and y >= z:
+        maior = y
+        if x >= z:
+            meio = x
+            menor = z
+        else:
+            meio = z
+            menor = x
+    if z >= y and z >= x:
+        maior = z
+        if y >= x:
+            meio = y
+            menor = x
+        else:
+            meio = x
+            menor = y
+    print(f'{maior}, {meio}, {menor}')
+
+
+# Alternativa:
+# def ordenar_decrescente(x, y, z):
+#     numeros = [x, y, z]
+#     ordem_decrescente = sorted(numeros, reverse=True)
+#     print(f'{ordem_decrescente[0]}, {ordem_decrescente[1]}, {ordem_decrescente[2]}')
