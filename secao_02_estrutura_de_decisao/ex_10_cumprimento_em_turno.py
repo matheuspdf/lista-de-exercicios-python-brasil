@@ -27,7 +27,6 @@ Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou
 
 def cumprimentar(turno: str):
     turno = turno.upper()
-    
     if turno == 'M':
         print("'Bom dia!'")
     elif turno == 'V':
