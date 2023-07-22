@@ -2,8 +2,10 @@
 Exercício 10 da seção de estrutura de decisão da Python Brasil:
 https://wiki.python.org.br/EstruturaDeDecisao
 
-Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno.
-Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+Faça um Programa que pergunte em que turno você estuda. Peça para digitar 
+M-matutino ou V-Vespertino ou N- Noturno.
+Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou 
+"Valor Inválido!", conforme o caso.
 
     >>> cumprimentar('M')
     'Bom dia!'
@@ -24,4 +26,13 @@ Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!
 
 
 def cumprimentar(turno: str):
-    """Escreva aqui em baixo a sua solução"""
+    turno = turno.upper()
+    
+    if turno == 'M':
+        print("'Bom dia!'")
+    elif turno == 'V':
+        print("'Boa tarde!'")
+    elif turno == 'N':
+        print("'Boa noite!'")
+    else:
+        print("'Valor Inválido!'")
