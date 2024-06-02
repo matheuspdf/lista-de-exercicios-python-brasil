@@ -24,7 +24,7 @@ Os valores devem ser exibidos com duas casas decimais
     Salário em 2021: R$ 1662.27. Aumento porcentual: 6.00%
     Salário em 2022: R$ 1861.74. Aumento porcentual: 12.00%
     Salário em 2023: R$ 2308.55. Aumento porcentual: 24.00%
-    
+
 """
 
 

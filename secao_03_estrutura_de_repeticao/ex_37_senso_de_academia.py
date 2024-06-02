@@ -2,13 +2,13 @@
 Exercício 37 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaDeRepeticao
 
-Uma academia deseja fazer um senso entre seus clientes para descobrir o mais alto, o mais baixo, a mais gordo e o mais 
-magro, para isto você deve fazer um programa que pergunte a cada um dos clientes da academia seu nome, sua altura e 
-seu peso. 
-O final da digitação de dados deve ser dada quando o usuário digitar 0 (zero) no campo nome. Ao encerrar o programa 
+Uma academia deseja fazer um senso entre seus clientes para descobrir o mais alto, o mais baixo, a mais gordo e o mais
+magro, para isto você deve fazer um programa que pergunte a cada um dos clientes da academia seu nome, sua altura e
+seu peso.
+O final da digitação de dados deve ser dada quando o usuário digitar 0 (zero) no campo nome. Ao encerrar o programa
 também deve ser informados os nomes e valores do cliente mais alto, do mais baixo, do mais gordo e do mais magro, além
 da média das alturas e dos pesos dos clientes
- 
+
     >>> from secao_03_estrutura_de_repeticao import ex_37_senso_de_academia
     >>> entradas = ['0', '81', '162', 'Renzo']  # Um aluno apenas
     >>> ex_37_senso_de_academia.input = lambda k: entradas.pop()

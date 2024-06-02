@@ -46,4 +46,3 @@ e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – F
 
 def temperaturas_acima_da_media():
     """Escreva aqui sua solução: """
-

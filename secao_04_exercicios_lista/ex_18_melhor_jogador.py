@@ -46,5 +46,3 @@ outro número. Após o final da votação, o programa deverá exibir:
 
 def receber_votos(*voto):
     """Escreva aqui em baixo a sua solução"""
-
-

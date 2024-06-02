@@ -9,12 +9,9 @@ Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem in
 
     >>> inverter_vetores([10,14,16,26,36,46,58,24,35,40])
     [40, 35, 24, 58, 46, 36, 26, 16, 14, 10]
-    
-   
 
 """
 
 
 def inverter_vetores(inteiros: list) -> str:
     """Escreva aqui em baixo a sua solução"""
-    

@@ -2,9 +2,9 @@
 Exercício 50 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaDeRepeticao
 
-Sendo H = 1 + 1/2 + 1/3 + 1/4 + ... + 1/N, 
+Sendo H = 1 + 1/2 + 1/3 + 1/4 + ... + 1/N,
 Faça um programa que calcule o valor de H com N termos.
-    
+
     ----------------------------------
     | EXEMPLO                         |
     ----------------------------------
@@ -13,7 +13,7 @@ Faça um programa que calcule o valor de H com N termos.
     | SAIDA:                          |
     | H = 2.283333333333333           |
     ----------------------------------
-    
+
 
     >>> soma_serie(5)
     H = 2.283333333333333

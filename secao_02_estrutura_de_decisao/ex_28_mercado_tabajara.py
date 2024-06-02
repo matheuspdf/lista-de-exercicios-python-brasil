@@ -41,7 +41,7 @@ Mostre o restultado com duas casas decimais
     '6 kg de Picanha a R$ 7.80/kg saem a R$ 46.80. Não há desconto, pagamento feito com dinheiro'
     >>> calcular_preco_da_carne('Picanha', 8, 'cartão tabajara')
     '8 kg de Picanha a R$ 7.80/kg saem a R$ 62.40. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ 59.28'
-    
+
 """
 
 

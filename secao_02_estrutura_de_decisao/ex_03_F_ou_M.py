@@ -22,4 +22,4 @@ def f_ou_m(sexo):
     elif sexo == 'M':
         return 'M - Masculino'
     else:
-        return 'Sexo inválido'    
+        return 'Sexo inválido'

@@ -23,7 +23,7 @@ def decidir_melhor_produto(x, y, z):
     if x <= y and x <= z:
         mais_barato = x
     if y <= x and y <= z:
-        mais_barato = y        
+        mais_barato = y
     if z <= y and z <= x:
         mais_barato = z
     print(f"Melhor produto custa R$ {mais_barato:.2f}")

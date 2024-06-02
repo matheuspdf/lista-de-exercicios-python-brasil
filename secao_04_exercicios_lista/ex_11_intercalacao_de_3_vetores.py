@@ -18,4 +18,3 @@ Altere o programa anterior, intercalando 3 vetores.
 
 def intercalar(lista_1: list, lista_2: list, lista_3: list) -> list:
     """Escreva aqui em baixo a sua solução"""
-
